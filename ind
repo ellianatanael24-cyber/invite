@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undangan Pernikahan</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0f0f0f;
+    font-family:'Cinzel', serif;
+}
+
+.envelope{
+    width:90%;
+    max-width:450px;
+    padding:50px 30px;
+    text-align:center;
+    border:2px solid #d4af37;
+    border-radius:20px;
+    background:linear-gradient(
+        145deg,
+        #111,
+        #1a1a1a
+    );
+    box-shadow:
+        0 0 20px rgba(212,175,55,.2),
+        inset 0 0 20px rgba(212,175,55,.08);
+}
+
+.gold-line{
+    width:80px;
+    height:2px;
+    background:#d4af37;
+    margin:20px auto;
+}
+
+.small{
+    color:#c9b26b;
+    letter-spacing:3px;
+    font-size:12px;
+}
+
+.title{
+    color:#d4af37;
+    font-size:34px;
+    margin:15px 0;
+}
+
+.name{
+    color:white;
+    font-size:24px;
+    margin:8px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 35px;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(212,175,55,.6);
+}
+</style>
+</head>
+<body>
+
+<div class="envelope">
+    <div class="small">THE WEDDING OF</div>
+
+    <div class="gold-line"></div>
+
+    <div class="name">Agung</div>
+    <div class="title">&</div>
+    <div class="name">Ageng</div>
+
+    <div class="gold-line"></div>
+
+    <a href="undangan.html" class="btn">
+        Buka
+    </a>
+</div>
+
+</body>
+</html>
